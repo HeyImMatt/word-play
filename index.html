@@ -9,7 +9,16 @@
   </head>
   <body>
     <div class="container">
-    <h1>Word Play</h1>
-  </div>
+      <h1>Word Play</h1>
+      <form id="originalSentence">
+        <div class="form-group">
+          <label for="sentence">Please enter a sentence.</label>
+          <textarea id="sentence" class="form-control"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <h4>Your modified sentence is:</h4>
+        <p id="returnSentence"></p>
+    </form>
+   </div>
   </body>
 </html>
